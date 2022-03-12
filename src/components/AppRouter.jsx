@@ -14,7 +14,7 @@ const AppRouter = () => {
             key={route.name}
           />
         ))}
-        <Redirect to="/notes" />
+        <Redirect to="/create" />
       </Switch>
     </Suspense>
   );
