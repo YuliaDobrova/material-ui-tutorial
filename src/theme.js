@@ -23,51 +23,36 @@ const theme = createTheme({
     },
   },
   typography: {
-    tab: {
-      fontFamily: "Orbitron",
-      textTransform: "none",
-      fontSize: "2.5rem",
-      color: black,
-    },
-    h1: {
-      fontFamily: "Orbitron",
-      fontSize: "2.5em",
-    },
-    h2: {
-      fontFamily: "Orbitron",
-      fontSize: "2.5em",
-    },
-    subtitle1: {
-      fontFamily: "Orbitron",
-    },
-    subtitle2: {
-      fontFamily: "Orbitron",
-      fontSize: "1.5rem",
-    },
-    buttons: {
-      fontFamily: "Orbitron",
-      textTransform: "none",
-    },
-    title: {
-      textDecoration: "underline",
-      marginBottom: 20,
-      color: "pink",
-    },
-    customBtn1: {
-      fontSize: 60,
-      backgroundColor: "pink",
-      color: "pink",
-      fill: "pink",
-    },
-    customBtn2: {
-      minWidth: 10,
-      marginRight: "50px",
-      opacity: 1,
-      "&hover": {
-        color: purple,
-        textDecoration: "none",
-      },
-    },
+    fontFamily: "Rubik",
+    fontWeightLight: 400,
+    fontWeightRegular: 500,
+    fontWeightMedium: 600,
+    fontWeightBold: 700,
+    // tab: {
+    //   fontFamily: "Orbitron",
+    //   textTransform: "none",
+    //   fontSize: "2.5rem",
+    //   color: black,
+    // },
+    // h1: {
+    //   fontFamily: "Orbitron",
+    //   fontSize: "2.5em",
+    // },
+    // h2: {
+    //   fontFamily: "Orbitron",
+    //   fontSize: "2.5em",
+    // },
+    // subtitle1: {
+    //   fontFamily: "Orbitron",
+    // },
+    // subtitle2: {
+    //   fontFamily: "Orbitron",
+    //   fontSize: "1.5rem",
+    // },
+    // buttons: {
+    //   fontFamily: "Orbitron",
+    //   textTransform: "none",
+    // },
   },
 });
 
