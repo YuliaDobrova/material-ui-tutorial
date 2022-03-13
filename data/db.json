@@ -1,0 +1,40 @@
+{
+  "notes": [
+    {
+      "title": "Finish tutorial",
+      "details": "Study and practice Material UI tutorial ",
+      "category": "todos",
+      "id": 1
+    },
+    {
+      "title": "Drink a cup of Coffee",
+      "details": "Go downstairs to do some exercises and physical training",
+      "category": "reminders",
+      "id": 2
+    },
+    {
+      "title": "Make a Modal Window",
+      "details": "This is a modal with MUI",
+      "category": "work",
+      "id": 3
+    },
+    {
+      "title": "Kiss my son",
+      "details": "He is right nearby me)))",
+      "category": "reminders",
+      "id": 4
+    },
+    {
+      "title": "Hug my son",
+      "details": "(after a kiss =)",
+      "category": "todos",
+      "id": 5
+    },
+    {
+      "title": "Show an App to my husband",
+      "details": "Cause an App is cool!",
+      "category": "reminders",
+      "id": 6
+    }
+  ]
+}

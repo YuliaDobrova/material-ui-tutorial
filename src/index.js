@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 import { ThemeProvider } from "@mui/material/styles";
 import { StyledEngineProvider } from "@mui/material/styles";
 import { BrowserRouter } from "react-router-dom";
-import theme from "./theme";
-import "./index.css";
 import App from "./App";
+import theme from "./theme";
+
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>

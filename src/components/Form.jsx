@@ -8,13 +8,16 @@ import {
   Radio,
   RadioGroup,
 } from "@mui/material";
+import { useHistory } from "react-router-dom";
 
-const Form = ({ classes }) => {
+const Form = ({ classes, notes, setNotes }) => {
   const [title, setTitle] = useState("");
   const [details, setDetails] = useState("");
   const [titleError, setTitleError] = useState(false);
   const [detailsError, setDetailsError] = useState(false);
   const [category, setCategory] = useState("todos");
+
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -29,9 +32,17 @@ const Form = ({ classes }) => {
     }
 
     if (title && details) {
-      console.log(title, details);
+      // fetch("http://localhost:8000/notes", {
+      fetch("https://material-ui-tutorial-backend.herokuapp.com/notes", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        body: JSON.stringify({ title, details, category }),
+      }).then(() => history.push("/notes"));
     }
   };
+
   return (
     <>
       <Typography
