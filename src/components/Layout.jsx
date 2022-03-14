@@ -16,7 +16,7 @@ import { useHistory } from 'react-router-dom';
 import mainRoutes from '../routes/mainRoutes';
 import { format } from 'date-fns';
 
-const drawerWidth = 240;
+const drawerWidth = 170;
 
 const useStyles = makeStyles(theme => {
   return {
@@ -40,6 +40,7 @@ const useStyles = makeStyles(theme => {
     title: {
       padding: theme.spacing(2),
       textAlign: 'center',
+      fontSize: '20px',
     },
     appbar: {
       width: `calc(100% - ${drawerWidth}px)`,

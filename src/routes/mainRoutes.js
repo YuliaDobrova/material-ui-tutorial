@@ -1,7 +1,6 @@
 import { AddCircleOutlined, SubjectOutlined } from '@mui/icons-material';
 import CreatePage from '../pages/CreatePage.js';
 import NotesPage from '../pages/NotesPage';
-// import BookShopPage from "../pages/BookShopPage.js";
 
 const mainRoutes = [
   {
@@ -18,12 +17,6 @@ const mainRoutes = [
     exact: true,
     component: CreatePage,
   },
-  // {
-  //   name: "BookShop",
-  //   path: "/bookshop",
-  //   exact: true,
-  //   component: BookShopPage,
-  // },
 ];
 
 export default mainRoutes;
